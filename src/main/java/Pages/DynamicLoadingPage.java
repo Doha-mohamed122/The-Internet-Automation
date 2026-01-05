@@ -1,5 +1,6 @@
 package Pages;
 
+<<<<<<< HEAD
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -19,4 +20,7 @@ public class DynamicLoadingPage {
         driver.findElement(exampleLink).click();
         return new EX2DynamicLoadingPage(driver);
     }
+=======
+public class DynamicLoadingPage {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

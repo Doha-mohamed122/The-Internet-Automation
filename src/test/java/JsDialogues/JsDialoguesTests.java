@@ -1,5 +1,6 @@
 package JsDialogues;
 
+<<<<<<< HEAD
 import Pages.JavaScriptAlertPage;
 import base.BaseTest;
 import org.testng.annotations.Test;
@@ -36,4 +37,7 @@ public class JsDialoguesTests extends BaseTest {
         assertEquals(text,"You entered: "+enter,"Rhe text is incorrect");
     }
 
+=======
+public class JsDialoguesTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

@@ -1,5 +1,6 @@
 package fileUpload;
 
+<<<<<<< HEAD
 import Pages.FileUploadPage;
 import base.BaseTest;
 import org.testng.annotations.Test;
@@ -14,4 +15,7 @@ public class FileUploadTests extends BaseTest {
         fileUploadPage.uploadFile(filePath);
         assertEquals(fileUploadPage.getUploadedFileName(),fileName,"The file name is incorrect");
     }
+=======
+public class FileUploadTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

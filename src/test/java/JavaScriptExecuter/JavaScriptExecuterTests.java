@@ -1,5 +1,6 @@
 package JavaScriptExecuter;
 
+<<<<<<< HEAD
 import Pages.InfiniteScrollPage;
 import Pages.LargeAndDeepDomPage;
 import base.BaseTest;
@@ -16,4 +17,7 @@ public class JavaScriptExecuterTests extends BaseTest {
         InfiniteScrollPage infiniteScrollPage = homePage.clickInfiniteScroll();
         infiniteScrollPage.scrollToParagraph(5);
     }
+=======
+public class JavaScriptExecuterTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

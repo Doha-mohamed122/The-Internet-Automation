@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Utils;
 
 import org.openqa.selenium.WebDriver;
@@ -36,5 +37,20 @@ public class WindowManager {
     }
 
 
+=======
+package Pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class WindowManager {
+    private WebDriver driver;
+    public WindowManager(WebDriver driver){
+        this.driver = driver;
+
+    }
+    public void goback(){
+        
+    }
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 
 }

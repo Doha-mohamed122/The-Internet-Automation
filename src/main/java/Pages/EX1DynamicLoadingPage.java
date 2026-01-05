@@ -1,5 +1,6 @@
 package Pages;
 
+<<<<<<< HEAD
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -29,4 +30,7 @@ public class EX1DynamicLoadingPage {
     public String getResultText(){
         return driver.findElement(resultText).getText();
     }
+=======
+public class EX1DynamicLoadingPage {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

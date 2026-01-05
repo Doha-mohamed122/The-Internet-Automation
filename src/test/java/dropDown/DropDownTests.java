@@ -1,5 +1,6 @@
 package dropDown;
 
+<<<<<<< HEAD
 import base.BaseTest;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
@@ -15,4 +16,7 @@ public class DropDownTests extends BaseTest {
         assertTrue(selectedOptions.contains(option),"The option is not selected");
 
     }
+=======
+public class DropDownTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

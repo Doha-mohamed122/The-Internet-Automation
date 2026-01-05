@@ -1,5 +1,6 @@
 package hovers;
 
+<<<<<<< HEAD
 import Pages.HoverPage;
 import base.BaseTest;
 import org.testng.annotations.Test;
@@ -20,4 +21,7 @@ public class HoverTests extends BaseTest {
 
         assertEquals(figureCaption.getLinkText(),"View profile","The link text is incorrect");
     }
+=======
+public class HoverTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

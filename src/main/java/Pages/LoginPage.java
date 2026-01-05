@@ -1,5 +1,6 @@
 package Pages;
 
+<<<<<<< HEAD
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -29,4 +30,7 @@ public class LoginPage {
         return new SecureAreaPage(driver); //This is page object-> to be able to continue to this next page
 
     }
+=======
+public class LoginPage {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

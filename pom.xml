@@ -13,6 +13,7 @@
         <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<<<<<<< HEAD
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -30,5 +31,7 @@
 
 
     </dependencies>
+=======
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 
 </project>

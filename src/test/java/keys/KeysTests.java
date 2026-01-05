@@ -1,5 +1,6 @@
 package keys;
 
+<<<<<<< HEAD
 import Pages.KeyPressesPage;
 import base.BaseTest;
 import org.openqa.selenium.Keys;
@@ -12,4 +13,7 @@ public class KeysTests extends BaseTest {
         keyPressesPage.setText(Keys.chord(Keys.SHIFT +"a"));
         assertEquals(keyPressesPage.getText(),"You entered: A","The Text is incorrect");
     }
+=======
+public class KeysTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

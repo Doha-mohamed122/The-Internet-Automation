@@ -1,5 +1,6 @@
 package Pages;
 
+<<<<<<< HEAD
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,4 +32,7 @@ public class DropDownPage {
         return new Select(driver.findElement(dropdown));
 
      }
+=======
+public class DropDownPage {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

@@ -1,5 +1,6 @@
 package wait;
 
+<<<<<<< HEAD
 import Pages.DynamicLoadingPage;
 import base.BaseTest;
 import org.testng.annotations.Test;
@@ -23,4 +24,7 @@ public class WaitTests extends BaseTest {
                 "The text incorrect");
     }
 
+=======
+public class WaitTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

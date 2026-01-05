@@ -1,5 +1,6 @@
 package modals;
 
+<<<<<<< HEAD
 import Pages.EntryAdPage;
 import base.BaseTest;
 import org.testng.annotations.Test;
@@ -19,4 +20,7 @@ public class ModalsTests extends BaseTest {
         assertEquals(entryAd.getText(),"Entry Ad","The modal Wasn't closed");
 
     }
+=======
+public class ModalsTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

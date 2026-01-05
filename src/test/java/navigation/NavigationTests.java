@@ -1,5 +1,6 @@
 package navigation;
 
+<<<<<<< HEAD
 import Pages.NewWindowPage;
 import Utils.WindowManager;
 import base.BaseTest;
@@ -23,4 +24,7 @@ public class NavigationTests extends BaseTest {
         getWindowManager().switchToTab("New Window");
         assertEquals(newWindowPage.getText(),"New Window","You in Wrong Tab");
     }
+=======
+public class NavigationTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }

@@ -1,5 +1,6 @@
 package Login;
 
+<<<<<<< HEAD
 import Pages.LoginPage;
 import Pages.SecureAreaPage;
 import base.BaseTest;
@@ -35,4 +36,7 @@ public class LoginTests extends BaseTest {
                 "Error message is incorrect"
         );
     }
+=======
+public class LoginTests {
+>>>>>>> e8df736ff0fd1ea9f01f24e2bb6e53b478457e05
 }
